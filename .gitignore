@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# SQLite DB
+*.db
+*.sqlite3
+
+# Test artifacts
+*.png
+*.jpg
+*.log
+test_chart.py
+test_strategy.py
+patch_data_fetcher.py
+
+# Compiled static assets in backend
+backend/static/assets/
+backend/static/index.html
+backend/static/vite.svg
